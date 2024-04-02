@@ -9,8 +9,52 @@
 
 /* Mobile */
 @media (max-width: 767px) {
-  .header__container {
-    margin: 0 20px;
-  }
+
+    .header__logo{
+        margin-left: 20px;
+    }
+
+    .header__author-info{
+        margin-right: 20px;
+    }
+
+    #banner{
+        height: 150px;
+    }
+
+    .banner__title{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .banner__alert{
+        font-size: 13px;
+    }
+
+    .jokes__content {
+        height: 200px;
+        font-size: 14px;
+        color: #5d5d5d;
+        padding: 0 25px;
+    }
+
+    .vote__top-line{
+        display: none;
+    }
+    
+    .vote__button{
+        width: 130px;
+        height: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.064);
+        margin: 40px 20px;
+    }
+
+    .footer__content--paragraph{
+        margin: 10px 5px 15px;
+    }
+
+    #footer{
+        margin: 40px 0 0;
+    }
 }
 
