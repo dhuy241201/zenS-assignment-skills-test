@@ -90,6 +90,7 @@
 }
 
 .jokes__content{
+    height: 120px;
     font-size: var(--medium-text);
     letter-spacing: 1px;
     line-height: 1.5;
@@ -131,6 +132,7 @@
     border: transparent;
     border-bottom: 3px solid rgba(0, 0, 0, 0.159);
     margin: 40px 10px;
+    cursor: pointer;
 }
 
 .vote__button.btn-funny{
