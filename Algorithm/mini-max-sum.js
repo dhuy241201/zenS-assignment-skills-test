@@ -45,6 +45,20 @@ const miniMaxSum = (stringNumber) => {
         .map(Number)
         .sort((a, b) => a - b);
 
+    let isListHaveNaN = false;
+    numberArr.forEach((number) => {
+        if(Number.isNaN(number)){
+            console.log("All value of input must be number");
+            isListHaveNaN = true;
+            return;
+        }
+    })
+
+    if(isListHaveNaN){
+        return;
+    }
+    
+
     if(numberArr.length !== 5){
         console.log("Amount of number must be five");
         return;
@@ -66,7 +80,7 @@ const miniMaxSum = (stringNumber) => {
     console.log("Odd elements in array",oddArray);
 };
 
-miniMaxSum("1 2 3 3 4");
+miniMaxSum([INPUT_VALUE]);
 
 
 
